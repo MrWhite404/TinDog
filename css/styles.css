@@ -1,0 +1,183 @@
+body {
+    font-family: 'Montserrat';
+}
+
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15% 4%;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5; 
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Nav bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-size: 2.5rem;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: 100;
+}
+
+/* Download Button */
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-img {
+    position: absolute;
+    width: 20%;
+    transform: rotate(20deg);
+    margin-left: 5%;
+    right: 22%;
+
+}
+
+#features {
+    background-color: white;
+    padding: 8% 15%;
+    position: relative;
+    z-index: 1;
+
+}
+
+.featurebox {
+    text-align: center;
+    padding: 0 5%;
+}
+
+.icons {
+    color: #ef8272;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+
+#testimonials {
+    background-color: #ef8272;
+
+    text-align: center;
+    color: white;
+}
+
+.testimonials-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 30px 20px;
+}
+
+#press {
+    background-color: #ef8272;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-inner {
+    padding: 8% 15%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.card-pad {
+    padding: 3% 2%;
+}
+
+/* RESPOSIVE */
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+}
+
+/* CTA */
+
+#cta {
+    background-color: #ff4c68;
+    padding: 10% 15%;
+    text-align: center;
+    color: white;
+}
+
+.cta-fnt {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+
+#footer {
+    text-align: center;
+    padding: 7%;
+}
+
+.copytight {
+    margin-top: 30px;
+    font-size: 1.1rem;
+}
+
+.social-icon {
+    text-align: center;
+    margin-left: 20px;
+}
+
+.button-down {
+    margin: 50px 15px;
+}
